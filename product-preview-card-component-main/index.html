@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @font-face {
+      font-family: Montserrat;
+      src: url(https://fonts.google.com/specimen/Montserrat);
+    }
+    @font-face {
+      font-family: Fraunces;
+      src: url(https://fonts.google.com/specimen/Fraunces);
+    }
+    h2{color: rgb(18, 102, 18); }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      border: 1px solid rgb(250, 244, 244);
+      border-radius: 8px; 
+      padding: 20px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      max-width: 300px;
+      margin: 20px auto; 
+    }
+    h5, h1, p ,h6,h2{
+      margin: 0; 
+    }
+    img{
+      height: 150px;
+      width:280px;
+    }
+    h5{
+      font-family:Fraunces ;
+      text-align: left;
+    }
+    h6{
+      text-decoration: line-through;
+    }
+    button{
+      background-color: rgb(18, 102, 18);
+      color:white;
+      border:none;
+      border-radius:5px ;
+      cursor: pointer;
+      height: 40px;
+      width: 300px;
+    }
+    button img, button svg {
+            width: 20px; 
+            height: 15px; 
+            fill: #fff;
+            margin-right: 5px;
+        }
+ 
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <img src="images/image-product-mobile.jpg">
+  <h5>Perfume</h5>
+  <h1>Gabrielle Essence Eau De Parfum</h1>
+
+  <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.</p>
+
+  <h2>$149.99</h2>
+  <h6>$169.99</h6>
+  <button><img src="images/icon-cart.svg"></img> Add to Cart</button>
+</div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Patrick M</a>.
+  </div>
+</body>
+</html>
