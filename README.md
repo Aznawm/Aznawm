@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @Aznawm
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning python, frontend dev
+- 👋 Hi, I’m Patrick Mwanza
+- 👀 I’m interested in being a full stack developer.
+- 🌱 I’m currently learning frontend dev
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me pmwanza202@gmail.com
 - 😄 Pronouns: ...
