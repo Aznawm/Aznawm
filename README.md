@@ -14,7 +14,7 @@
 - 📱 Currently mastering **GetX State Management** in Flutter
 - 🌱 Learning **Full-Stack Development**
 - ⚡ Building scalable mobile and web applications
-- 💡 Interested in Flutter, FastAPI, React and Next.js
+- 💡 Interested in Flutter, FastAPI, Php Laravel and Next.js
 - 🎯 Goal: Become a Professional Full-Stack Developer
 
 ---
